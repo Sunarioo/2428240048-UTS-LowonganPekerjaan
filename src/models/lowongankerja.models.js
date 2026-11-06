@@ -26,5 +26,5 @@ const schema = new mongoose.Schema(
   },
 );
 
-const KerjaModel = mongoose.model("lowongankerja", schema);
-export default KerjaModel;
+const LowonganKerjaModel = mongoose.model("lowongankerja", schema);
+export default LowonganKerjaModel;
