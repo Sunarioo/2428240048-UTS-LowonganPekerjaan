@@ -1,0 +1,113 @@
+{
+  "info": {
+    "_postman_id": "0aa45de5-9692-4efe-aad8-0195f57bec96",
+    "name": "LowonganKerja",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58518733",
+    "_collection_link": "https://go.postman.co/collection/58518733-0aa45de5-9692-4efe-aad8-0195f57bec96?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Create Kerja",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"position\": \"Staff Kebersihan\",\r\n    \"company\": \"PT Terima Kasih\",\r\n    \"location\": \"Bandung\",\r\n    \"is_open\": true\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/lowongankerja",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "lowongankerja"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Kerja",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Detail Kerja",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Kerja",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"position\": \"Staff Manajemen\",\r\n    \"company\": \"PT Sama Sama 22\",\r\n    \"location\": \"Bandung\",\r\n    \"is_open\": false\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/lowongankerja/6aedaf72b6e39a59ea38f0f4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "lowongankerja",
+            "6aedaf72b6e39a59ea38f0f4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Kerja",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/lowongankerja/6aedaf72b6e39a59ea38f0f4",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "lowongankerja",
+            "6aedaf72b6e39a59ea38f0f4"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
